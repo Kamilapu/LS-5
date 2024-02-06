@@ -32,8 +32,7 @@ body {
 }
 
 .header-logo, .header-button {
-     flex-grow: 1;
-     max-width: 175px; /* min-width почему-то не сработал,кнопки остались сбоку*/
+     min-width: 175px;
 }
 
 .header-logo {}
